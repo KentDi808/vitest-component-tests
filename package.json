@@ -1,0 +1,17 @@
+{
+  "name": "vitest_browser",
+  "version": "1.0.0",
+  "description": "Test App for use with vitest browser mode and Applitools Eyes",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest src/components/Button/Primary.test.js",
+    "test:watch": "vitest watch -browser=chromium"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/browser": "^3.2.4",
+    "playwright": "^1.55.0",
+    "vitest": "^3.2.4"
+  }
+}

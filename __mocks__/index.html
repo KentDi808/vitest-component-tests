@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Page</title>
+    <style>
+      html {
+        font-family: Arial, sans-serif;
+      }
+      .primary {
+        background-color: var(--accent-color-primary, #006184);
+        color: var(--text-color-inverted, #fff);
+        border: none;
+        min-height: 2.5rem;
+      }
+      .btn {
+        cursor: pointer;
+        border-radius: 2px;
+        align-items: center;
+        gap: .25rem;
+        padding: .25rem 1rem;
+        font-family: inherit;
+        font-weight: 400;
+        display: flex;
+      }
+      @media (any-hover: hover) {
+        .primary:hover {
+          background-color: var(--dark-mode-primary-hover, #007da5);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
